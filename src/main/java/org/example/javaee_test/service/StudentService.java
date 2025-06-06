@@ -2,8 +2,11 @@ package org.example.javaee_test.service;
 
 import org.example.javaee_test.entity.Student;
 import org.example.javaee_test.entity.Score;
+import org.example.javaee_test.repository.ScoreRepositoryImpl;
 import org.example.javaee_test.repository.StudentRepository;
 import org.example.javaee_test.repository.ScoreRepository;
+import org.example.javaee_test.repository.StudentRepositoryImpl;
+
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.transaction.Transactional;
